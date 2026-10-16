@@ -1,1 +1,3 @@
 # Deadline-Dashboard
+
+Een webapplicatie voor mensen die moeite hebben met plannen en deadlines in het oog te houden. Gebruikers voeren hun (project)deadlines en (korte, individuele)taken zelf in, kunnen aanduiden hoe belangrijk ze zijn en hoe dringend (zie Eisenhower-matrix) en zien in één oogopslag wat het eerst aandacht nodig heeft. Persoonlijke en professionele taken zijn visueel te onderscheiden, bij elke taak of deadline kan een PDF (bijvoorbeeld een opdrachtbrief) worden toegevoegd, en afhankelijk van de urgentie worden gebruikers gewaarschuwd met alerts/highlights. De bedoeling is alles heel visueel en overzichtelijk te maken.
