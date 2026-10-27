@@ -162,4 +162,29 @@ Verbindingen tussen de onderdelen:
 - Welke feestdagen-API en welke betaalprovider.
 - Of de betaalprovider meetelt als externe webservice (vraag aan de docent).
 - Maand- of jaarabonnement.
--
+- Wie de gegevens voor de admin-export samenbrengt: gebruikers staan in de Identity Server, plannen in de plan-service.
+- Wie in de frontend deadlines en vrije dagen samenbrengt, omdat ze uit twee services komen.
+- CSV bevestigen als exportformaat.
+- Libraries voor de bubbels en de kalender (controleer wat de cursus aanbeveelt).
+
+## Planning
+
+- Projectvoorstel via het formulier: ingediend, één keer voor beide vakken.
+- Presentatie van het voorstel: 5 tot 10 minuten met slides, Gent op 27/10 om 10u00. Het is dezelfde presentatie voor Cloud en Web 3.
+- Eindverdediging: ongeveer 40 tot 45 minuten voor beide vakken samen, waarschijnlijk in de examenperiode van januari. De datum volgt.
+
+## WBN: toekomstige uitbreidingen
+
+Uit de eerste lijst zijn de aftelklok, het wijzigen van het label en het plaatsen op de matrix intussen onderdeel van het ontwerp.
+
+1. Herhalende taken met onbepaalde interval (ramen wassen om de 6 maanden, boiler jaarlijks, maandelijks rapport) met een done-slider die meteen weer aftelt naar de volgende instantie. Dit is de grootste uitbreiding, omdat een herhalingsregel moet worden bewaard.
+2. Recurring reminders, en reminders via een externe API. E-mail is het eenvoudigst. WhatsApp is zwaar. Er is een geplande taak nodig die de deadlines controleert.
+3. Snooze voor niet-dringende taken.
+4. Werkbare dagen tot een deadline, zonder weekends, feestdagen en vrije dagen waarop niet gewerkt kan worden.
+5. Extra categorieën zoals school en andere, en zelf categorieën toevoegen. Categorie wordt dan een eigen entiteit.
+6. Deelprojecten in deelprojecten, over meerdere niveaus.
+7. Bubbel die ploft bij afronden via rechtsklik. Op touch kan dat via lang indrukken of een knop, met ongedaan maken.
+8. Zwevende en animerende bubbels die in real time groeien.
+9. Voltooide deeltaken als opgevulde bubbels, zodat de voortgang meteen zichtbaar is.
+10. Maand- en jaarabonnement met een geldigheidsdatum.
+11. Laatste login en meer statistieken voor de admin.
